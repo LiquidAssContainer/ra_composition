@@ -2,6 +2,8 @@
 
 # Composition
 
+[GitHub Pages](https://liquidasscontainer.github.io/ra_composition).
+
 ## Card
 
 Недолгое и простое задание, комментировать нечего.
