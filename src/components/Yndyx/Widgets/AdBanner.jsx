@@ -6,7 +6,7 @@ export const AdBanner = ({ cover, href = '#' }) => {
       <a href={href} className="oddvertisement_link">
         <img
           src={cover || null}
-          // alt="Advertisement cover"
+          alt="Advertisement cover"
           className="oddvertisement_cover"
         />
       </a>

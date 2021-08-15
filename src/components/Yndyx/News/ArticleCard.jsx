@@ -3,7 +3,7 @@ export const ArticleCard = ({ cover, title, description, href }) => {
   return (
     <div className="article-card">
       <div className="img_wrapper">
-        <img className="article-card_image" src={cover || null} />
+        <img className="article-card_image" alt="cover" src={cover || null} />
       </div>
       <h5 className="article-card_title">
         <a href={href} className="article-card_title_link">

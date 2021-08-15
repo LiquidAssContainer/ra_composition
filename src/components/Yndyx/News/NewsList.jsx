@@ -3,7 +3,7 @@ const NewsItem = ({ title, icon, href }) => {
     <div className="news-item">
       <a href={href} className="news-item_link">
         <div className="news-item_icon">
-          <img className="news-item_icon_img" src={icon} />
+          <img className="news-item_icon_img" alt="ico" src={icon} />
         </div>
         <div className="news-item_title">{title}</div>
       </a>

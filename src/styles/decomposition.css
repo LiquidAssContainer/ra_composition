@@ -72,3 +72,12 @@
 .widgets_section {
   margin-left: 120px;
 }
+
+.news-item_icon {
+  position: absolute;
+  right: 6px;
+}
+
+.news-item_link {
+  position: relative;
+}
