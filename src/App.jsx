@@ -1,4 +1,5 @@
 import { Card } from './components/Card';
+import { Yndyx } from './components/Yndyx/Yndyx';
 import { Collapse } from './components/Collapse';
 
 import './styles/app.css';
@@ -7,6 +8,8 @@ import img from './assets/nettos.jpg';
 export function App() {
   return (
     <>
+      <Yndyx />
+
       <div className="cards-container">
         <Card
           title="Card title"
